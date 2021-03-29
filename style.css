@@ -3,7 +3,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     flex-direction: column;
 }
 
@@ -30,6 +30,13 @@ h1 {
 }
 
 .grid-square {
-    border: solid red 1px;
     flex: 1;
+}
+
+.visited {
+    background-color: black;
+}
+
+button {
+    margin-bottom: 0.67em;
 }
