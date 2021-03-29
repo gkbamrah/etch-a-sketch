@@ -1,0 +1,35 @@
+body {
+    background-color: pink;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+#grid-container {
+    border: solid black 1px;
+    width: 75vh;
+    height: 75vh;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.grid-square {
+    border: solid red 1px;
+    flex: 1;
+}
